@@ -115,7 +115,7 @@ export const About = () => {
           <div className="hidden xl:flex xl:flex-1 relative">
             <DevImg
               containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
-              ImgSrc="/about/developer.png"
+              ImgSrc="/about/dev.png"
             />
           </div>
           {/* Tabs */}

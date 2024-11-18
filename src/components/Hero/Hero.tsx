@@ -53,14 +53,15 @@ export const Hero = () => {
             <Badge
               containerStyles="absolute top-[24%] -left-[5rem]  "
               icon={<RiBriefcase4Fill />}
-              endCountNum={3}
+              endCountNum={1}
+              endCountText="+"
               badgeText="Year Of Experience"
             />
             {/* Badge 2 */}
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]  "
               icon={<RiTodoFill />}
-              endCountNum={6}
+              endCountNum={10}
               endCountText="+"
               badgeText="Finished Projects"
             />
@@ -68,15 +69,15 @@ export const Hero = () => {
             <Badge
               containerStyles="absolute top-[55%] -right-8  "
               icon={<RiTeamFill />}
-              endCountNum={9}
+              endCountNum={10}
               endCountText="+"
               badgeText="Happy Clients"
             />
             {/*  */}
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark  w-[500px] h-[500px] bg-no-repeat  -top-1 -right-2 rounded-full">
+            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark   w-[500px] h-[500px] bg-no-repeat  -top-1 -right-2 rounded-full overflow-hidden">
               <DevImg
-                containerStyles={`bg-hero_shape bg-no-repeat relative bg-bottom  w-[510px] h-[462px]`}
-                ImgSrc="/hero/developer.png"
+                containerStyles={`bg-hero_shape bg-no-repeat relative bg-bottom bg-cover w-[510px] h-[462px] `}
+                ImgSrc="/hero/dev.png"
               />
             </div>
           </div>

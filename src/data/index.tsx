@@ -12,6 +12,26 @@ export const ProjectsData = [
       "https://gitlab.com/omni.channel/client-nextjs-core/-/tree/king-ecom-dev",
   },
   {
+    image: "/work/madame.png",
+    category: "NextJS, NextUI",
+    name: "Lê Hoàng Diệp Thảo TNI",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, atque ex consectetur magni nisi est mollitia fuga! Laboriosam error ab labore qui, ullam libero.",
+    link: "https://www.lehoangdiepthao.com/vi",
+    github:
+      "https://gitlab.com/omni.channel/client-nextjs-core/-/tree/king-ecom-dev",
+  },
+  {
+    image: "/work/distribution.png",
+    category: "NextJS, NextUI",
+    name: "Distribution King Coffee",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, atque ex consectetur magni nisi est mollitia fuga! Laboriosam error ab labore qui, ullam libero.",
+    link: "https://distribution.kingcoffee.com/vi",
+    github:
+      "https://gitlab.com/omni.channel/client-nextjs-core/-/tree/king-ecom-dev",
+  },
+  {
     image: "/work/nova.png",
     category: "NextJS, NextUI",
     name: "Novadreams Tickets",
