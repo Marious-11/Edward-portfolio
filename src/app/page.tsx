@@ -11,9 +11,9 @@ export default function Home() {
     <Template>
       <Hero />
       <About />
-      <Service />
+      {/* <Service /> */}
       <Work />
-      <Reviews />
+      {/* <Reviews /> */}
       <CTA />
     </Template>
   );

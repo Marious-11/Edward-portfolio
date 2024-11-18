@@ -20,10 +20,9 @@ export const Work = () => {
           {" "}
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde,
-            atque et eius aliquam fugit alias quaerat officiis sed facere
-            repellat maxime placeat aperiam, obcaecati odit, sit consequatur
-            incidunt quis? Blanditiis?
+            Latest Projects showcases innovative and impactful solutions I've
+            developed, highlighting my expertise in frontend development and
+            dedication to creating seamless user experiences.
           </p>
           <Link href={"/projects"}>
             <Button>All projects</Button>

@@ -40,7 +40,9 @@ export const ProjectCard = ({ data }: { data: IProject }) => {
           {data.category}
         </Badge>
         <h4 className="h4 mb-1">{data.name}</h4>
-        <p className="text-muted-foreground text-lg">{data.description}</p>
+        <p className="text-muted-foreground text-lg h-[140px]">
+          {data.description}
+        </p>
       </div>
     </Card>
   );
