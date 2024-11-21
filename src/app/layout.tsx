@@ -15,20 +15,20 @@ export const metadata: Metadata = {
   title: "Edward | Portfolio",
   description: "Introduction of Edward",
   icons: {
-    icon: "/logo.svg",
-    shortcut: "/logo.svg",
-    apple: "/logo.svg",
+    icon: "https://i.imgur.com/zFESsmD.jpeg",
+    shortcut: "https://i.imgur.com/zFESsmD.jpeg",
+    apple: "https://i.imgur.com/zFESsmD.jpeg",
   },
   openGraph: {
     title: "Edward | Portfolio",
     description: "Introduction of Edward",
-    images: "/logo.png",
+    images: "https://i.imgur.com/zFESsmD.jpeg",
   },
   twitter: {
     card: "summary_large_image",
     title: "Edward | Portfolio",
     description: "Introduction of Edward",
-    images: "/logo.png",
+    images: "https://i.imgur.com/zFESsmD.jpeg",
   },
 };
 
