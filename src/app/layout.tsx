@@ -14,6 +14,22 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Edward | Portfolio",
   description: "Introduction of Edward",
+  icons: {
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
+  },
+  openGraph: {
+    title: "Edward | Portfolio",
+    description: "Introduction of Edward",
+    images: "/logo.png",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Edward | Portfolio",
+    description: "Introduction of Edward",
+    images: "/logo.png",
+  },
 };
 
 export default function RootLayout({

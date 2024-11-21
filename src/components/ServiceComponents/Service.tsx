@@ -12,7 +12,7 @@ import {
 const ServicesData = [
   {
     icons: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Web Design",
+    title: "Freelance Web Development",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
   },
