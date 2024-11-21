@@ -1,13 +1,11 @@
 const nextConfig = {
   images: {
-    localPatterns: [
+    formats: ["image/avif", "image/webp"],
+    remotePatterns: [
       {
-        pathname: "/assets/images/**",
-        search: "",
-      },
-      {
-        pathname: "/**",
-        search: "",
+        protocol: "https",
+        hostname: "**", // Cho phép mọi hostname
+        pathname: "/**", // Cho phép tất cả các đường dẫn
       },
     ],
   },
