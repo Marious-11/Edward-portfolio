@@ -55,16 +55,16 @@ export default function RootLayout({
         />
       </head>
       <body className={`${outfit.className} antialiased`}>
-        <ThemeProvider
+        {/* <ThemeProvider
           attribute="class"
           defaultTheme="light"
           // enableSystem
           // disableTransitionOnChange
-        >
-          <HeaderComponent />
-          {children}
-          <FooterComponent />
-        </ThemeProvider>
+        > */}
+        <HeaderComponent />
+        {children}
+        <FooterComponent />
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );
